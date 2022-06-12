@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rahul Williams-DevOps Trainer & Consultant||full stack developer||Solutions Architect</title>
+    <link rel="shortcut icon" type="image/jpg" href="OneDrive_23654.ico"/>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      html,
+      body,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: "Roboto", sans-serif;
+      }
+      .float {
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 40px;
+        right: 40px;
+        background-color: #25d366;
+        color: #fff;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 30px;
+        box-shadow: 2px 2px 3px #999;
+        z-index: 100;
+      }
+
+      .my-float {
+        margin-top: 16px;
+      }
+
+      
+
+#contact{
+    /* background-color:#009688; */
+    text-align: center;
+    color: white;
+    margin: 0px 0 20px 0;
+   
+    
+}
+
+.btnl{
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 60px;
+  cursor: pointer;
+  font-size: 20px;
+  height: auto;
+  width: 100%;
+  box-shadow: #333;
+  animation-play-state: running;
+  margin-top: 15px;
+  
+}
+.blogb {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  animation: forwards ;
+}
+.blogb:hover {background-color: #3e8e41}
+
+.blogb:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 100vw;
+  margin: 0 auto;
+}
+.footer-wrapper {
+  background: white;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background:  url(https://i.imgur.com/kJcYZsI.jpeg); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+  justify-content: center;
+  height: 390px;
+}
+
+.contact-title {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: white;
+  font-size: 30px;
+  font-weight: 400px;
+  height: 40px;
+}
+
+.contact-title::after {
+    background-color: blue; 
+    content: '';
+    display: block;
+    height: 10px;
+    margin: -15px auto auto auto;
+    width: 145px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: url(https://i.imgur.com/AeQP1iE.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh
+}
+
+nav {
+    position: fixed;
+    width: 60px;
+    margin-top: 150px;
+    transition: all 0.3s linear;
+    box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, .4)
+    z-index:  1;
+}
+
+nav ul {
+    margin-top: 0;
+    margin-bottom: 0rem
+}
+
+nav li {
+    height: 45px;
+    position: relative
+}
+
+nav li a {
+    color: #fff !important;
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 45px;
+    padding-left: 25%;
+    border-bottom: 1px solid rgba(0, 0, 0, .4);
+    transition: all .3s linear;
+    text-decoration: none !important
+}
+
+nav li:nth-child(1) a {
+    background: #4267B2
+}
+
+nav li:nth-child(2) a {
+    background: #1DA1F2
+}
+
+nav li:nth-child(3) a {
+    background: #E1306C
+}
+
+nav li:nth-child(4) a {
+    background: #2867B2
+}
+
+nav li:nth-child(5) a {
+    background: #333
+}
+
+nav li:nth-child(6) a {
+    background: #ff0000
+}
+
+nav li a i {
+    position: absolute;
+    top: 14px;
+    left: 24px;
+    font-size: 15px
+}
+
+ul li a span {
+    display: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase
+}
+
+a:hover {
+    z-index: 1;
+    width: 200px;
+    border-bottom: 1px solid rgba(0, 0, 0, .5);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, .3)
+}
+
+ul li:hover a span {
+    padding-left: 30%;
+    display: block;
+    font-size: 15px
+}
+
+.boxshadow2{
+  border: 1px ;
+  padding: 10px;
+  box-shadow: 5px 5px 5px 10px #888888;
+}
+
+.boxshadow2{
+  border: 1px ;
+  padding: 10px;
+  box-shadow: 5px 5px 5px 10px #888888;
+}
+.google-slides-container{
+    position: relative;
+    width: 100%;
+    padding-top: 60%;
+    overflow: hidden;
+}
+
+.google-slides-container iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+    </style>
+  </head>
+
+  <nav>
+    <ul>
+        <li><a href="https://www.facebook.com/cloudzguru" target="_blank"><i class="fa fa-facebook"></i><span>Facebook</span></a></li>
+        <li><a href="https://twitter.com/rwmotivation" target="_blank"><i class="fa fa-twitter"></i><span>Twitter</span></a></li>
+        <li><a href="https://www.instagram.com/cloudzguru/" target="_blank"><i class="fa fa-instagram"></i><span>Instagram</span></a></li>
+        <li><a href="https://www.linkedin.com/in/rahul-williams-662812b/" target="_blank"><i class="fa fa-linkedin"></i><span>Linkedin</span></a></li>
+        <li><a href="https://github.com/rwmotivation" target="_blank"><i class="fa fa-github"></i><span>Github</span></a></li>
+        <li><a href="https://www.youtube.com/channel/UC6wkqewg9ih8X5DSH9mYcgA" target="_blank"><i class="fa fa-youtube"></i><span>Youtube</span></a></li>
+    </ul>
+</nav>
+  <body class="w3-light-grey">
+    <!-- Page Container -->
+    <div class="w3-content w3-margin-top" style="max-width: 1400px">
+      <!-- The Grid -->
+      <div class="w3-row-padding">
+        <!-- Left Column -->
+        <div class="w3-third">
+          <div class="w3-white w3-text-grey w3-card-4">
+            <div class="w3-display-container">
+              <img
+                src="https://drive.google.com/uc?export=view&id=1FWNE6IeHWplHKwCLvjY3WNdZYcOwECUj"
+                style="width: 100%"
+                alt="Avatar"
+              />
+              <div class="w3-display-bottomleft w3-container w3-text-white">
+                <h2>Rahul Williams</h2>
+              </div>
+            </div>
+            <br>
+          </hr>
+            <div class="w3-container">
+              <p>
+                <i
+                  class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"
+                ></i
+                >DevOps Trainer & Consultant
+              </p>
+              <p>
+                <i
+                  class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"
+                ></i
+                >India
+              </p>
+              <p>
+                
+                <i
+                  class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"
+                ></i
+                ><a href="mailto:rwmotivation@gmail.com">
+                  rwmotivation@gmail.com
+                </a>
+              </p>
+              <p>
+                <i
+                  class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"
+                ></i
+                ><a href="tel:+91-730-237-1808">730-237-1808</a>
+              </p>
+              <br>
+            </hr>
+              <p>
+                <button class="blogb"><a href = "https://training.cloudzguru.com/" target="_blank">Online Training</a></button>
+              </p>
+              <br>
+            </br>
+          </hr>
+                    <p>
+                <button class="blogb"><a href = "https://forms.gle/YeJGFMx5eejG9xQt7" target="_blank">Hire Me</a></button>
+              </p>
+              <hr />
+
+              <p class="w3-large">
+                <b
+                  ><i
+                    class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"
+                  ></i
+                  >Skills</b
+                >
+              </p>
+              <p>DevOps</p>
+              <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div
+                  class="w3-container w3-center w3-round-xlarge w3-teal"
+                  style="width: 90%"
+                >
+                  90%
+                </div>
+              </div>
+              <p>AWS</p>
+              <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div
+                  class="w3-container w3-center w3-round-xlarge w3-teal"
+                  style="width: 80%"
+                >
+                  <div class="w3-center w3-text-white">80%</div>
+                </div>
+              </div>
+              <p>Azure</p>
+              <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div
+                  class="w3-container w3-center w3-round-xlarge w3-teal"
+                  style="width: 75%"
+                >
+                  75%
+                </div>
+              </div>
+              <p>GCP</p>
+              <div class="w3-light-grey w3-round-xlarge w3-small">
+                <div
+                  class="w3-container w3-center w3-round-xlarge w3-teal"
+                  style="width: 50%"
+                >
+                  50%
+                </div>
+              </div>
+              <br />
+
+              <p class="w3-large w3-text-theme">
+                <b
+                  ><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i
+                  >Languages</b
+                >
+              </p>
+              <p>Python</p>
+              <div class="w3-light-grey w3-round-xlarge">
+                <div
+                  class="w3-round-xlarge w3-teal"
+                  style="height: 24px; width: 100%"
+                ></div>
+              </div>
+              <p>Java</p>
+              <div class="w3-light-grey w3-round-xlarge">
+                <div
+                  class="w3-round-xlarge w3-teal"
+                  style="height: 24px; width: 55%"
+                ></div>
+              </div>
+              <p>Go</p>
+              <div class="w3-light-grey w3-round-xlarge">
+                <div
+                  class="w3-round-xlarge w3-teal"
+                  style="height: 24px; width: 25%"
+                ></div>
+              </div>
+              <br />
+            </div>
+          </div>
+          <br />
+
+          <!-- End Left Column -->
+        </div>
+
+        <!-- Right Column -->
+        <div class="w3-twothird">
+          <div class="w3-container w3-card w3-white w3-margin-bottom">
+            <h2 class="w3-text-grey w3-padding-16">
+              <i
+                class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"
+              ></i
+              >Work Experience
+            </h2>
+            <div class="w3-container">
+              <h5 class="w3-opacity">
+                <b>DevOps Consultant</b>
+              </h5>
+              <h6 class="w3-text-teal">
+                <i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2021 -
+                <span class="w3-tag w3-teal w3-round">March 2022</span>
+              </h6>
+              <p>
+                Are you looking for a Cloud or DevOps Engineer with expertise in automation and keeping it secure? Look no further!</p></br>
+
+<p>Hello, my name is Rahul Williams and I am a Cloud/ DevOps Engineer with extensive experience in building cloud infrastructure, automating all the things, and keeping it secure while doing so. Here are some of my technical highlights:</p></br>
+<ul>
+<li>🤖Programming Languages 🤖</li>
+<li>🔅 bash</li>
+<li>🔅 golang</li>
+<li>🔅 php</li>
+<li>🔅 python</li>
+</ul>
+<br>
+</hr>
+<ul>
+  <li>👾Configuration Management 👾</li>
+<li>🔅 CloudFormation, Serverless, Stacker, Terraform,Pulumi</li>
+<li>🔅 Ansible, Chef, SaltStack</li>
+<br>
+</hr>
+</ul>
+<ul>🦾CI/CD 🦾
+<li>🔅 AWS CodePipeline/CodeBuild</li>
+<li></li>🔅 BitBucket</li>
+<li></li>🔅 GitHub</li>
+<li></li>🔅 GitLab</li>
+<li></li>🔅 Jenkins</li>
+</ul>
+</br>
+</hr>
+<ul>🏭Infrastructure 🏭
+<li>🔅 Autoscaling and Load Balancing, Containers, Serverless, and more</li>
+<li>🔅 API Gateway, CloudFront, CloudTrail, CloudWatch, Cognito, DMS, EC2, ECS/Fargate, GuardDuty, Kinesis, Lambda, RDS, Route53, S3, VPC, etc.</li>
+<br>
+</br>
+</hr>
+As a Cloud/ DevOps Engineer, I believe in automation, reproducible infrastructure, and security. I have years of experience in engineering and can build out your infrastructure and automation with security in mind for whatever your needs are.
+          <p>Industries I've worked in include health-care, education, security, and customer service</p>
+          <p>Please contact me for questions and proposals.You can <a href="mailto:rwmotivation@gmail.com">
+            📧email me📧</a> directly from here to send your requirements for a free consultation.</p>
+            </div>
+              </p>
+              <hr />
+            </div>
+            <div class="w3-container">
+            </p>
+            <hr />
+            <div class = boxshadow2>
+              <h5 class="w3-opacity"><b>DevOps Trainer</b></h5>
+              <h6 class="w3-text-teal">
+                <i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2021 -
+                Current
+              </h6>
+              <p>
+                I am a DevOps transformation consultant with over 17 years of experience. I am also a certified trainer . I have experience in various roles like research, development, requirements engineering, and system architecture, and have led development teams and project management. For the last several years, I am coaching teams and organizations to achieve all the advantages of the DevOps process.
+              </p>
+              <br>
+              <p>I have trained/coached teams on DevOps practices. Over the years I have trained hundreds of teams including developers, testers, analysts, and project and line management.</p>
+              <br>
+              <p>Specialties: DevOps transformations, Agile software development, Scrum, building and coaching high performing teams, lean thinking, continuous improvements, distributed software development, finding smart technical solutions that add maximum value for clients, DevOps coaching, agile training</p>
+              <hr />
+              <p>CloudzGuru is my brainchild to provide learners across the world to provide free access to learn several topics on technologies like cloud computing and programming languages</p>
+            </div>
+            </div>
+          <br>
+          </br>
+        </hr>
+        <div class = boxshadow2>
+            <div class="w3-container">
+              <h5 class="w3-opacity">
+                <b>Cloud Architect</b>
+              </h5>
+              <h6 class="w3-text-teal">
+                <i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2014 -
+                Current
+              </h6>
+              <p>I build secure, stable, automated, and cost effective cloud infrastructure.</p>
+              <br /></br>
+            </hr>
+              <p>Some examples of work I've done:</p>
+              <ul>
+                <li>-Built infrastructure from scratch via console, command line, or Terraform</li>
+                <li>-Diagramed cloud architecture</li>
+                <li>-Created custom cloud applications to meet specific business needs</li>
+                <li>-Wrote clean and thorough technical documentation</li>
+                <li>-Gave customized classes on building in the cloud</li>
+                <li>-Made customized monitoring solutions for multiple environments</li>
+              </ul>
+              <br>
+            </br>
+          </hr>
+          <p>Industries I've worked in include health-care, education, security, and customer service</p>
+          <p>Please contact me for questions and proposals.You can <a href="mailto:rwmotivation@gmail.com">
+            📧email me</a> directly from here to send your requirements for a free consultation.</p>
+            </div>
+          </div>
+</div>
+          <div class="w3-container w3-card w3-white">
+            <h2 class="w3-text-grey w3-padding-16">
+              <i
+                class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"
+              ></i
+              >Portfolio
+            </h2>
+            <div class="google-slides-container">
+            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTAly8BuPhg7etf3Iee_u2wFfQfQAunQBOjXLD5POLqRHAh-JPk0A8PIZLIkqgfdveLm52zqwCfUIup/embed?start=true&loop=true&delayms=3000" frameborder="0" width="850" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+          </div>  
+          </div>
+          </div>
+
+          <!-- End Right Column -->
+        </div>
+
+        <!-- End Grid -->
+      </div>
+
+      <!-- End Page Container -->
+    </div>
+
+    <footer>
+
+        <button class="btnl">
+          <i class="fa fa-download"><a href="https://drive.google.com/file/d/1gaJELqv8t_1fRGtP-69Gr6wB3GeBpgD7/view?usp=sharing" target="_blank">Download My Resume</a></i> </button>
+          </button>
+        </div>
+      <!-- Contact -->
+<section class="image-bg-fluid-height" id="contact">
+  <form action = "mailto:cheri.hammick@gmail.com" method = "post" enctype = "text/plain">
+    <div class = "row">
+      <h1 class="form-control"> CONTACT ME: </h1>
+      <br></br>
+      <div class = "form-group">
+        <label for = "name">NAME: </label>
+        <input type = "name" id = "name" class="form-control" placeholder = "Enter Name" size = "50">
+    </div>
+    <div class = "form-group">
+               <label for = "email">EMAIL: </label>
+        <input type = "email" id = "email" class = "form-control" placeholder = "Enter Email Address" size = "50">
+    </div>
+      <br></br>
+  <div class = "form-group">
+      <label class = "control-label" for = "comment">COMMENT: </label>
+        <input type = "comment" id = "comment" class = "form-control" size = "250">
+    <br></br>
+  <button type = "submit" class = "blogb">Submit</button>
+      </div>
+    </div>
+      </div>
+      </form>
+</section>
+<!--End Contact -->
+      <a
+        href="https://api.whatsapp.com/send?phone=7302371808&text=Hello%21%20OI Would like to know%20m%C3%A1s%more%C3%B3n%20about%20services%you offer."
+        class="float"
+        target="_blank"
+      >
+        <i class="fa fa-whatsapp my-float";"></i>
+      </a>
+    </footer>
+  </body>
+</html>
