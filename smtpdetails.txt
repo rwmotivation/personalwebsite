@@ -1,0 +1,16 @@
+I would like to inform you that please go with the below details:
+
+Type - MX
+Name - @
+value - smtp.secureserver.net
+PRIORITY - 10
+
+Type - MX
+Name - @
+value - mailstore1.secureserver.net
+PRIORITY - 20
+
+
+Type - TXT
+Name - @
+Value - D4819406
